@@ -47,8 +47,7 @@
       }
     }
   },
-  "plugins": [
-    {
+  "plugins": [{
       "plugin": "@nx/cypress/plugin",
       "options": {
         "targetName": "e2e",
@@ -76,7 +75,7 @@
       "unitTestRunner": "jest"
     },
     "@nx/angular:component": {
-      "style": "css"
+      "style": "scss"
     }
   },
   "nxCloudAccessToken": "YWU4NjdhYjAtNGQ4MS00OTVmLWEyOWItMGE4NTkxODYwZjc4fHJlYWQtd3JpdGU="
